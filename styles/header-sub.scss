@@ -1,0 +1,112 @@
+
+.header__sub{
+    width: 100%;
+    height: 50px;
+    background-color: #525050;
+}
+
+.header__sub-container{
+    height: 50px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.header__sub-item{
+    min-width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #525050;
+    border-left: 1px solid #525050;
+    transition: .2s;
+    &:hover{
+        background-color: #fff;
+        a{
+            color: #2d2d2d;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Oswald', sans-serif;
+        font-size: 14px;
+    }
+}
+
+.header__delivery{
+    height: 50px;
+    display: flex;
+
+}
+
+.header__delivery-sale{
+    height: 50px;
+    width: 50%;
+    background: #FF385C;
+    border-right: 1px solid #fff; 
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+    &:hover{
+        background-color: #ef5471;
+    }
+    strong{
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 16px;
+    }
+
+}
+
+.header__delivery-delivery{
+
+    height: 50px;
+    width: 50%;
+    background: #000;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    transition: .2s;
+    &:hover{
+        background-color: #525050;
+        border: 1px solid #fff;
+    }
+    strong{
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 16px;
+    }
+}
+
+.header__banner{
+    height: 50px;
+    background: #9CF0E0;
+    border-top: 1px solid #fff;
+}
+
+
+@media(max-width: 600px) {
+    .header__delivery{
+        
+        display: flex;
+        flex-direction: column-reverse;
+
+    
+    }
+    .header__delivery-sale{
+        display: none;
+    }
+    .header__delivery-delivery{
+        width: 100%;
+    }
+}

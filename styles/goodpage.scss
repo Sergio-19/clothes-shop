@@ -1,0 +1,158 @@
+
+.goodpage__wrapper{
+    h1, p, span, button {
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+}
+
+.goodpage__top{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.galery{
+ 
+
+}
+
+
+
+.galery__photo-big{
+    width: 500px;
+    height: 600px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.goodpage__top__text-wrap{
+    padding: 10px 20px;
+}
+
+.goodpage__top__text-title{
+    h1{
+        color: #2d2d2d;
+        font-size: 18px;
+    }
+}
+
+.goodpage__top__text-price{
+    margin-bottom: 20px;
+
+    span{
+        color: #3e3e3e;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.goodpage__top__text-promo{
+    margin: 20px 0;
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CDE2F5;
+    span{
+        color: #3e3e3e;
+        font-size: 16px;
+        line-height: 1.5;
+        strong{
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+
+}
+
+.goodpage__top__text-color{
+    margin: 20px 0;
+    strong{
+        color: #2d2d2d;
+    }
+}
+
+.goodpage__top__text-size{
+    strong{
+        color: #2d2d2d;
+    }
+}
+
+.goodpage__top__text-btn{
+
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    button{
+        width: 240px;
+        height: 40px;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: #018849;
+        border: 1px solid #018849;
+    }
+
+}
+
+.goodpage__top__text-delivery{
+    width: 100%;
+    height: 90px;
+    padding: 20px;
+    border: 1px solid rgb(186, 184, 184);
+    i{
+        color: #2d2d2d;
+    }
+    span{
+        color: #2d2d2d;
+    }
+}
+
+.goodpage__bottom {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid rgb(186, 184, 184);
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width: 970px){
+    .goodpage__bottom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section__wrap{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media(max-width: 850px){
+    .goodpage__top{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .galery__photo-big{
+        width: 100%;
+        height: auto;
+    }
+
+    .goodpage__top__text-btn{
+        justify-content: center;
+        button{
+            width: 90%;
+            height: 60px;
+        }
+    }
+}

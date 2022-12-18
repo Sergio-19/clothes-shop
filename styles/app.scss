@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import './header.scss';
+@import './header-sub.scss';
+@import './footer.scss';
+@import './homePage.scss';
+@import './filter.scss';
+@import './goodspage.scss';
+@import './goodpage.scss';
+@import './infosection.scss';
+@import './cartpage.scss';
+
+
+h1, h2, h3, h4, h5, p, a, span, strong, li{
+    font-family: 'Lato', sans-serif;
+}
+
+p, a, span, strong, li{
+    font-size: 14px;
+}
+*{
+    box-sizing: border-box;
+}
+
+.main{
+overflow-x: hidden;
+}
+
+.content{
+
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 10px;
+    // border: 1px solid #000;
+}

@@ -1,0 +1,40 @@
+
+.cartpage__wrapper{
+    display: flex;
+
+}
+
+.cartpage__left{
+    width: 70%;
+
+}
+
+.cartpage__right{
+    min-width: 30%;
+    
+}
+
+.cartitem__wrap{
+    background-color: #eeee;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.cart__good-item{
+
+}
+
+.cart__good-item-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+
+    img{
+        width: 100px;
+        height: 140px;
+    }
+}
